@@ -1,0 +1,47 @@
+@media (max-width: 767px) {
+    .content {
+        padding: 6px;
+    }
+    .background {
+        padding: 6px;
+    }
+  }
+
+@media (min-width: 767px) {
+    .content {
+        padding: 24px;
+    }
+    .background {
+        padding: 19px;
+        padding-left: 2px !important;
+        overflow: initial;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .pullright {
+        margin-left: 250px;
+    }
+  }
+
+  .pullright {
+    margin-top: 64px;
+}
+
+
+
+.background {
+    min-height: calc(100vh - 64px)
+}
+
+.content {
+    min-height: 280px;
+    background: #fff;
+}
+
+  
+ .fixedheader {
+     position: static;
+ }
+

@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.FormLogin {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.textInfo {
+    font-size: 12px;
+}
+.textInfo2{
+    font-size: 12px;
+    color: #FFFFFF!important;
+}
+
+.InputForm {
+    width: 100%;
+}
+.FormLogin Button {
+    width: 100%;
+}
+.FormLogin .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.FormLogin .message a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.bodyLoginPage {
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+}

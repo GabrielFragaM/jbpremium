@@ -1,0 +1,46 @@
+{
+  "name": "painel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^4.16.13",
+    "firebase": "^9.17.1",
+    "jodit-react": "^1.2.18",
+    "react": "^17.0.2",
+    "react-dom": "17.0.2",
+    "react-email-editor": "^1.6.1",
+    "react-router-dom": "6",
+    "react-scripts": "4.0.0",
+    "web-vitals": "^1.0.1"
+  },
+  "homepage": "https://superb-mermaid-c075e0.netlify.app",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}

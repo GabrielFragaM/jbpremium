@@ -1,0 +1,28 @@
+@media (min-width: 992px) {
+    .menu {
+      display: none !important;
+    }
+  }
+
+.right {
+  float:right;
+    width:33.33%;
+  text-align: right;
+}
+
+@media (min-width: 767px) {
+    .menu {
+      left: -25px
+    }
+  }
+
+@media (max-width: 768px) {    
+  .menu {
+    left: -40px
+  }
+}
+
+.menu {
+    float: left;
+    top: 17px;
+}
